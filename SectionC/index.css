@@ -1,0 +1,14 @@
+header{
+    font-size: xx-large;
+    font-style: italic;
+    background-color: lightslategray;
+}
+footer{
+    background-color: rebeccapurple;
+    color: maroon;
+}
+nav{
+    font-size: xx-large;
+    color: black;
+    padding: 2px 4px;
+}

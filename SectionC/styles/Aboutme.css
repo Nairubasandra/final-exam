@@ -1,0 +1,27 @@
+.about-section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profile {
+    flex: 1;
+    text-align: center;
+    border-image: none;
+}
+
+.profile-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid #f0a500;
+}

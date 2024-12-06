@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    padding: 20px;
+}
+.service-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    border: 3px solid green;
+}
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.service-card h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.service-card p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+.service-card:nth-child(1) {
+    border-color: #ff6f61; 
+    background-color: #ffe0e0;
+}
+
+.service-card:nth-child(2) {
+    border-color: #4db8ff; 
+    background-color: #e0f7ff;
+}
+
+.service-card:nth-child(3) {
+    border-color: #2c9d84; 
+    background-color: #e0f5f0;
+}
+
+.service-card:nth-child(4) {
+    border-color: #ffca3a; 
+    background-color: #fff9e6;
+}
+.service-card button {
+    padding: 10px 20px;
+    background-color: #4db8ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.service-card button:hover {
+    background-color: #039be5;
+}
+span{
+    color: red;
+    font-style: italic;
+    font-size: xx-large;
+
+}
+h1{
+    color: lime;
+    background-color: black;
+    font-style: italic;
+    font-size: xx-large;
+    justify-content: center;
+    position: absolute;
+    opacity: 50px;
+    top: 0;
+    border-radius: 30%;
+    margin-top: 5px;
+
+}
+

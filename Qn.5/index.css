@@ -1,0 +1,9 @@
+h1{
+    position: left;
+    width: 25%;
+
+}
+p{
+    position: right;
+    width: 75%;
+}
